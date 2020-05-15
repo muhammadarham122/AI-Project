@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>YouTube Video Comments Sentiment Analyzer</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  {% comment %} <link rel="stylesheet" href="css/styles.css?v=1.0"> {% endcomment %}
+
+</head>
+
+<body>
+
+<form method="GET" action="/link/">
+{% csrf_token %}
+    {% comment %} {{ form }} {% endcomment %}
+    <label for="Youtube Video URL">Youtube Video URL: </label>
+    <input id="link" type="text" name="link"> 
+    <input type="submit" value="OK">
+    {{context}}
+</form>
+  {% comment %} <script src="js/scripts.js"></script> {% endcomment %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+api key
+
+AIzaSyABHi5bRfhQHz3XzPIUCu-u_O0h1LZpPbM
+
+link random
+
+-QMg39gK624
+
+
+python main.py AIzaSyABHi5bRfhQHz3XzPIUCu-u_O0h1LZpPbM,-QMg39gK624&list=PLyb_C2HpOQSBJRh38CTPvsouV4SBpyt_H&index=1, 2, lr_sentiment_cv
+
+
+foodapp
+foodapp123

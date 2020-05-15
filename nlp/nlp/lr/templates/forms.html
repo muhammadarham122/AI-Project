@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    {% comment %} <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> {% endcomment %}
+  </head>
+  <body>
+    <h1>This is form page</h1>
+    <form method="post">
+    {% csrf_token %}
+    {{form|linebreaksbr}}
+    <button type="submit">Submit</button>
+    </form>
+    {{data}}
+    
+  </body>
+</html>

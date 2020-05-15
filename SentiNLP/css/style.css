@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/montserrat/Montserrat-Regular.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+ background-image: url("../images/background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.search{
+    padding-top: 200px;
+    text-align: center;	
+}
+.search h1{
+	font-family: Montserrat-Regular;
+	color:#ffffff;
+	font-size: 45px;
+    font-weight: bold;
+}
+.search h3{
+	font-family: Montserrat-Regular;
+	    color: #fff;
+}
+.input-group .custom-form {
+    padding: 27px;
+    border-radius: 30px 0px 0px 30px;
+	color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+	font-family: Montserrat-Regular;
+}
+.input-group .input-group-btn .btn-click-to-search {
+	padding-top: 16px;
+    padding-bottom: 38px;
+    padding-right: 26px;
+    padding-left: 26px;
+	border-radius: 0px 30px 30px 0px;
+	    color: #000000;
+    background-color: #fff;
+    border: 3px solid #fff;
+	font-family: Montserrat-Regular;
+	font-weight: bold;
+}
+.input-group {
+	margin-top: 30px;
+}

@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 10px;
+}
+
+h1 {
+    margin-left: 450px;
+    padding-bottom: 50px;
+}
+
+.search {
+    font-size: 20px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.search_button{
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 25px;
+    width: 50px;
+    margin-left: 25px;
+    visibility: hidden;
+}
+
+.search_text{
+    font-size: 20px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form_search{
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+.td_pos{
+    color: #ffffff;
+    background-color: #2eb82e;
+}
+.td_neg{
+    color: #ffffff;
+    background-color: #e60000;
+
+}
+.comments{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    height: 350px;
+    width: 850px;
+    overflow-y: scroll;
+}
+
+td{
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+
